@@ -54,16 +54,17 @@ router.get(["/stat", "/stat.:type"], async ctx => {
   }
   const dates = {};
 
-  const history = await getHistory(ctx.query.user, true);
+  const userId = parseInt(ctx.query.user.toString());
+  const history = await getHistory(userId, true);
   const filename = await Cache.search(
-    ctx.query.user,
+    userId,
     type,
     new Date(history[0].created_at),
     {
-      min: ctx.query.mincolor,
-      max: ctx.query.maxcolor,
-      blank: ctx.query.blankcolor,
-      text: ctx.query.textcolor
+      min: ctx.query.mincolor.toString(),
+      max: ctx.query.maxcolor.toString(),
+      blank: ctx.query.blankcolor.toString(),
+      text: ctx.query.textcolor.toString()
     }
   );
 
@@ -87,12 +88,12 @@ router.get(["/stat", "/stat.:type"], async ctx => {
     }
   }
   if (!loadedFromCache) {
-    const minColor = hexToRgb(ctx.query.mincolor);
-    const maxColor = hexToRgb(ctx.query.maxcolor);
-    const blankColor = hexToRgb(ctx.query.blankcolor);
-    const textColor = hexToRgb(ctx.query.textcolor);
+    const minColor = hexToRgb(ctx.query.mincolor.toString());
+    const maxColor = hexToRgb(ctx.query.maxcolor.toString());
+    const blankColor = hexToRgb(ctx.query.blankcolor.toString());
+    const textColor = hexToRgb(ctx.query.textcolor.toString());
 
-    history.push(...(await getHistory(ctx.query.user, false)));
+    history.push(...(await getHistory(userId, false)));
 
     for (const e of history) {
       const date = new Date(e.created_at);
