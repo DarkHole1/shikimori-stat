@@ -1,6 +1,6 @@
 # shikimori-stat
 
-Генератор картинок со статистикой [Shikimori](https://shikimori.one/)
+Генератор картинок со статистикой [Shikimori](https://shikimori.me/)
 
 [![Uptime Robot ratio (30 days)](https://img.shields.io/uptimerobot/ratio/m785423966-e1625adaf4cb6d8f512c6ddb.svg)](https://status.ivanik.ru)
 
@@ -8,7 +8,7 @@
 
 Пример статистики моего аккаунта
 
-[![Статистика](https://big.ivanik.ru/shikimori/stat.svg?user=428722&blankcolor=ebedf0&mincolor=c6e48b&maxcolor=196127&textcolor=000000)](https://shikimori.one/ivanik)
+[![Статистика](https://big.ivanik.ru/shikimori/stat.svg?user=428722&blankcolor=ebedf0&mincolor=c6e48b&maxcolor=196127&textcolor=000000)](https://shikimori.me/ivanik)
 
 ## Запрос картинки
 
@@ -58,6 +58,6 @@ ID пользователя можно получить из ссылки на �
 Например в этой ссылке ID 428722.
 
 ```
-https://moe.shikimori.one/system/users/x160/428722.png
+https://moe.shikimori.me/system/users/x160/428722.png
                                             ^^^^^^
 ```
