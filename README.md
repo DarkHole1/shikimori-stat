@@ -1,21 +1,22 @@
 # shikimori-stat
 
 Генератор картинок со статистикой [Shikimori](https://shikimori.me/)
+Генератор картинок со статистикой [Shikimori](https://shikimori.me/)
 
-[![Uptime Robot ratio (30 days)](https://img.shields.io/uptimerobot/ratio/m785423966-e1625adaf4cb6d8f512c6ddb.svg)](https://status.ivanik.ru)
+[![Uptime Robot ratio (30 days)](https://img.shields.io/uptimerobot/ratio/m794305871-697b6dbfea314bec7763d310)](https://status.ivanik.ru)
 
 ## Пример
 
 Пример статистики моего аккаунта
 
-[![Статистика](https://big.ivanik.ru/shikimori/stat.svg?user=428722&blankcolor=ebedf0&mincolor=c6e48b&maxcolor=196127&textcolor=000000)](https://shikimori.me/ivanik)
+[![Статистика](https://stat.darkhole.space/stat.svg?user=494411&blankcolor=c9c9c9&mincolor=245652&maxcolor=009688&textcolor=888888)](https://shikimori.me/DarkHole)
 
 ## Запрос картинки
 
 Картинку можно получить по ссылке
 
 ```
-https://big.ivanik.ru/shikimori/stat.svg?user=428722&blankcolor=434343&mincolor=245652&maxcolor=009688&textcolor=ffffff
+https://stat.darkhole.space/stat.svg?user=494411&blankcolor=c9c9c9&mincolor=245652&maxcolor=009688&textcolor=888888
 ```
 
 Параметры:
@@ -39,7 +40,7 @@ https://big.ivanik.ru/shikimori/stat.svg?user=428722&blankcolor=434343&mincolor=
 
 ```bbcode
 [poster]
-https://ivanik.ru/shikimori-stat?user=428722&blankcolor=434343&mincolor=245652&maxcolor=009688&textcolor=ffffff
+https://stat.darkhole.space/stat.svg?user=494411&blankcolor=c9c9c9&mincolor=245652&maxcolor=009688&textcolor=888888
 [/poster]
 ```
 
@@ -47,7 +48,7 @@ https://ivanik.ru/shikimori-stat?user=428722&blankcolor=434343&mincolor=245652&m
 
 ```bbcode
 [img 875x128]
-https://ivanik.ru/shikimori-stat?user=428722&blankcolor=434343&mincolor=245652&maxcolor=009688&textcolor=ffffff
+https://stat.darkhole.space/stat.svg?user=494411&blankcolor=c9c9c9&mincolor=245652&maxcolor=009688&textcolor=888888
 [/img]
 ```
 
