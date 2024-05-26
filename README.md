@@ -1,9 +1,8 @@
 # shikimori-stat
 
-Генератор картинок со статистикой [Shikimori](https://shikimori.me/)
-Генератор картинок со статистикой [Shikimori](https://shikimori.me/)
+Генератор картинок со статистикой [Shikimori](https://shikimori.one/)
 
-[![Uptime Robot ratio (30 days)](https://img.shields.io/uptimerobot/ratio/m794305871-697b6dbfea314bec7763d310)](https://status.ivanik.ru)
+[![Uptime Robot ratio (30 days)](https://img.shields.io/uptimerobot/ratio/m794305871-697b6dbfea314bec7763d310)](https://stats.uptimerobot.com/edqy0SBDbK/794305871)
 
 ## Пример
 
